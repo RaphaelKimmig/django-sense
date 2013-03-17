@@ -2,7 +2,7 @@ import os
 
 import inspect
 import linecache
-import simplejson
+from django.utils import simplejson
 
 from line_profiler import LineProfiler
 

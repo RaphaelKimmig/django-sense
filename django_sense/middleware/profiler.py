@@ -5,7 +5,7 @@ from collections import defaultdict
 
 import cProfile
 import pstats
-import simplejson
+from django.utils import simplejson
 
 from cStringIO import StringIO
 
